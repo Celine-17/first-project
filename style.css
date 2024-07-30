@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: Outfit;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outift {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 500px;
+  max-height: 900px;
+}
+
+.main-image img {
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-card {
+  border-bottom: 0.5px solid;
+}
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 40px;
+  padding: 10px;
+}
+.main-content {
+  color: rgba(126, 139, 204, 0.575);
+  font-weight: 500;
+  font-size: 27px;
+  padding: 10px;
+}
+.cost-days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.cost {
+  color: hsl(178, 100%, 50%);
+  font-weight: 500;
+  font-size: 30px;
+}
+.cost img {
+  height: 25px;
+}
+
+.days {
+  color: hsl(215, 51%, 70%);
+  font-weight: 500;
+  font-size: 30px;
+}
+.days img {
+  height: 25px;
+}
+
+.creator {
+  color: rgba(126, 139, 204, 0.575);
+  font-weight: 500;
+  font-size: 27px;
+  padding: 10px;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.creator-image img {
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+}
